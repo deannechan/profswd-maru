@@ -1,0 +1,53 @@
+
+			header, footer {
+				text-align: center;
+				padding: 20px;
+				margin-bottom: 50px;
+				background-color: orange;
+			}
+
+			button{
+				height: 30px;
+				width: 50px;
+				background-color: orange;
+				border:none;
+				border-radius: 10px;
+			}
+
+			p{
+				margin: 50px;
+				text-align: justify;
+				margin-top: 20px
+			}
+			
+			.left{
+				position: relative;
+				top: 230px;
+				left: 250px;
+			}
+			.right{
+				position: relative;
+				top: -150px;
+				left: 850px;
+			}
+			#slideshow {
+			    position:relative;
+			    height:350px;
+			   	left: 350px;
+
+			}
+
+			#slideshow IMG {
+			    position:absolute;
+			    top:0;
+			    z-index:8;
+			}
+
+			#slideshow IMG.active {
+			    z-index:10;
+			}
+
+			#slideshow IMG.last-active, .lastOne {
+			    z-index:9;
+			}
+		
